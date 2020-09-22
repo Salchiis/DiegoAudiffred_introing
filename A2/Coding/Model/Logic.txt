@@ -1,0 +1,15 @@
+#ifndef _OUTPUT_H
+#define _OUTPUT_H
+#include <string>
+#include <iostream>
+using namespace std;
+ class Logic {
+public :   
+void writeData string palabra, int tam, double media, double desv, double lista[]);
+};
+void Logic :: writeData (string palabra, int tam, double media, double desv, double lista[]){  
+    for ( int i=0; i < tam ; i++ ) {
+        cout << i+1 << " -> " << lista[i] << endl ;
+    }  
+}
+#endif 
